@@ -1,7 +1,5 @@
 #! /bin/bash
 
-cp -f .vimrc ~/.vim/.vimrc
-rm -f .vimrc
 ln -fFs ~/.vim/.vimrc ~/.vimrc
 mkdir -p ~/.vimhistory
 mkdir -p ~/.vim/autoload ~/.vim/bundle && \
